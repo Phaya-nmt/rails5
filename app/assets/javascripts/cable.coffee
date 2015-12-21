@@ -9,3 +9,5 @@
 #
 # @App ||= {}
 # App.cable = ActionCable.createConsumer()
++@App ||= {}
++App.cable = ActionCable.createConsumer('/websocket')
